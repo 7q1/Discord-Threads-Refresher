@@ -8,7 +8,7 @@
 
 **2.** Edit .py file by adding your **Threads Id Channel** and the **Message Content** and **Your User Token**
 
-**3.** Recommended putting words that bot will delete after you send it **like bad words**
+**3.** Recommended putting words that bot will delete after you send it **[like bad words]**
 
 ---
 
