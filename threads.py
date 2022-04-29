@@ -4,6 +4,9 @@ except:
     os.system("pip install requests")
 import time
 
+
+# <!-------- Input Section -------->
+
 # Input Threads Channel Id (int):
 threadChannelId_1 = 0
 threadChannelId_2 = 0
@@ -11,14 +14,19 @@ threadChannelId_3 = 0
 threadChannelId_4 = 0
 threadChannelId_5 = 0
 
+# Fill your Message Content, Then Fill your Discord Token
+messageContent = "?"
+yourDiscordToken = "?"
+
+# <!-------- /Input Section -------->
+
+
 payload = {
-    # Message you want to send in thread channel (recommended using words that bot will delete):
-    'content': 'WORDS'
+    'content': f'{messageContent}'
 }
 
 header = {
-    # Your Token Here:
-    'authorization': 'YOUR TOKEN'
+    'authorization': f'{yourDiscordToken}'
 }
 
 
