@@ -1,4 +1,4 @@
-# Discord-Threads-Reloader
+# Discord-Threads-Refresher
 ### Python Script to reload your threads channels in discord.
 
 ---
