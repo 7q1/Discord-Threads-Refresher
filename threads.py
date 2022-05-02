@@ -36,6 +36,6 @@ r = requests.post(F"https://discord.com/api/v9/channels/{threadChannelId_3}/mess
 r = requests.post(F"https://discord.com/api/v9/channels/{threadChannelId_4}/messages", data=payload, headers=header)
 r = requests.post(F"https://discord.com/api/v9/channels/{threadChannelId_5}/messages", data=payload, headers=header)
 time.sleep(5)
-# If you want to reload more threads, write 5 request then time.sleep(5)
+# If you want to refresh more threads, write 5 request then time.sleep(5)
 
 # <!-- Null -->
